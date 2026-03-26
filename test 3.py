@@ -1,4 +1,7 @@
-def topla(sayi1, sayi2):
-    return sayi1 + sayi2
+def greet(name):
+    """This function greets the person passed in as a parameter."""
+    message = "Hello, " + name + "!"
+    return message
 
-print(topla(10, 5)) # Çıktı: 15
+# Calling the function
+print(greet("Alice"))
