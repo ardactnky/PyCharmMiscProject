@@ -1,2 +1,5 @@
-name = input("enter your name: ")
-print("hello", name)
+def add_numbers(a, b):
+    return a + b
+
+result = add_numbers(10, 5)
+print(result) # Output: 15
